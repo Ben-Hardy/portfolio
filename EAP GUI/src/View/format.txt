@@ -1,0 +1,28 @@
+About how the data is saved:
+
+EAPButton, double x, double y, String color, String txt, String font name, String font style, String font size 
+
+EAPLabel, double x, double y, String color, String txt, String font name, String font style, String font size 
+
+EAPCheckbox, double x, double y, String color, String txt, String color, String txt, String font name, String font style, String font size 
+
+EAPPane, double x1, double y1, double x2, double y2, String color
+
+EAPWindow, double x1, double y1, double x2, double y2, String color
+
+EAPScrollablePane, double x1, double y1, double x2, double y2, String color
+
+EAPLine, double x1, double y1, double x2, double y2
+
+* x and y are the coordinates of the top-left corner of the widget
+* x1 and y1 are the coordinates of the start point 
+* x2 and y2 are the coordinates of the end point
+* color is stored as String
+* font is stored as String and divided as font name, style, size
+* and EAPLine is used for either line, vertical line, and horizontal line
+
+Example:
+    Suppose we want to save a checkbox which is located at the top-left corner and colored #FFFFFF.
+        This checkbox is also labeled "example" with the font Times New Roman, Bold Italic, size 12.0.
+        it will be saved exactly as below:
+EAPCheckbox 0 0 #FFFFFF example Times New Roman Bold Italic 12.0
