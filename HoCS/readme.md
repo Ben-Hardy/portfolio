@@ -6,7 +6,7 @@ The thing with this problem, was that the solution will always take a looooooong
 to run. My original solution was about average for speed, so I came up with the one here.
 
 I basically took the solution matrix, subtracted one from it, and then converted it to
-unsigned and it cut runtime down by over two thirds. It seemed like such a dumb at the
+unsigned and it cut runtime down by over two thirds. It seemed like such a dumb idea at the
 time but it worked.
 
 
